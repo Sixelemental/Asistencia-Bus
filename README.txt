@@ -1,0 +1,1 @@
+Este proyecto es un projecto colaborativo de cuatro personas Avila Juan, Carlos Romero, Nicole Chávez, Guilda Vásquez para la universidad nacional de Cañete como recomendaciones es la implementación de seguimiento por GPS y vincular a una base datos que sea necesario para su uso.

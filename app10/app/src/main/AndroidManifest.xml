@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/buslogo"
+        android:label="Bus"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APP7"
+        tools:targetApi="31">
+        <activity
+            android:name=".panelbuscar"
+            android:exported="false" />
+        <activity
+            android:name=".panellista"
+            android:exported="false" />
+        <activity
+            android:name=".panelverreporte"
+            android:exported="false" />
+        <activity
+            android:name=".panelasistenciadelegado"
+            android:exported="false" />
+        <activity
+            android:name=".panelasistencia"
+            android:exported="false" />
+        <activity
+            android:name=".panelchofer"
+            android:exported="false" />
+        <activity
+            android:name=".panelagregarusuario"
+            android:exported="false" />
+        <activity
+            android:name=".panelrutas"
+            android:exported="false" />
+        <activity
+            android:name=".panelviaje"
+            android:exported="false" />
+        <activity
+            android:name=".paneladministrar"
+            android:exported="false" />
+        <activity
+            android:name=".panelreporte"
+            android:exported="false" />
+        <activity
+            android:name=".panelqr"
+            android:exported="false" />
+        <activity
+            android:name=".panelusuario"
+            android:exported="false" />
+        <activity
+            android:name=".panelregistrar"
+            android:exported="false" />
+        <activity
+            android:name=".panelprincipal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

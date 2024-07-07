@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondobus"
+    tools:context=".panelreporte">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="REPORTE DE USUARIOS"
+        android:textColor="#F44336"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="352dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <RadioButton
+            android:id="@+id/rbsuplantacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suplantación"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbfalsificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Falsificación"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rborden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Altera el orden"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbdanos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Causa daños fisicos al BUS"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbagravio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agravia a otro usuario"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbbasura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deja restos de basura"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rbenfermedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El usuario esta mal de salud"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="El reporte es por:"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Otro motivo"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/etmotivo"
+        android:layout_width="349dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/btnenviarreporte"
+        android:layout_width="247dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Enviar reporte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etmotivo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">APP7</string>
+
+    <string name="app_salazar_ronny">APP7: SALAZAR CANTO RONNY EDISON</string>
+    <string name="app_resultado">RESULTADO EN TEXT VIEW</string>
+    <string name="app_status_promedio">STATUS Y PROMEDIO DEL ESTUDIANTE</string>
+    <string name="app_status">DETERMINAR STATUS</string>
+    <string name="app_app_moviles">APPS MOVILES</string>
+    <string name="txt_view_io2">IO2</string>
+    <string name="txt_view_contabilidad">CONTABILIDAD</string>
+
+</resources>
